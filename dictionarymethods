@@ -1,0 +1,30 @@
+student = {
+    "name": "srihari J",
+    "age": 18,
+    "course": "data analyst"
+}
+
+# KEYS()
+print("keys")
+print(student.keys())
+
+# VALUES()
+print("values")
+print(student.values())
+
+# ITEMS()
+print("items")
+print(student.items())
+
+# GET()
+print("name", student.get("name"))
+print("phone no", student.get("phone", "not available"))
+
+# UPDATE()
+student.update({"age": 19})
+student.update({"phone": "9876543210"})
+
+print("updated student")
+print(student)
+
+
